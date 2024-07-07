@@ -1,0 +1,12 @@
+h1{
+    color: rgb(128, 155, 255);
+}
+h2{
+    /* color: rgba(100, 200, 150,0); */
+    color: rgba(100, 200, 150,1);
+    color: rgba(100, 200, 150,0.5);
+} 
+h3{
+    /* color: #ff7a00; */
+    color: #ff7a00ff;
+}

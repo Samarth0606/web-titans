@@ -1,0 +1,49 @@
+/* absolute units */
+/* h1{
+    font-size: 100px;
+} */
+
+/* --------------------------- */
+
+/* relative units */
+/* % , em , rem , vh , vw */
+
+/* % */
+
+div{
+    background-color: lemonchiffon;
+    width: 50%;
+}
+
+section{
+    background: goldenrod;
+    width: 50%;
+    width: 500px;
+}
+
+/* ----------------- */
+
+/* inheritance */
+/* ul > li{
+    color: orange;
+    font-size: 40px;
+    border: 2px solid black;
+} */
+
+/* ----------------- */
+
+/* em */
+/* ul>li{
+    font-size: 2em;
+    font-size: 2rem;
+} */
+
+
+/* ----------------- */
+
+
+div{
+    background-color: red;
+    width: 50vw;
+    height: 20vh;
+}

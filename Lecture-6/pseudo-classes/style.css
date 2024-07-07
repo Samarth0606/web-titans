@@ -1,0 +1,51 @@
+h1 , div{
+    color: red;
+}
+
+div:hover , h1:hover{
+    color: green;
+    cursor: pointer;
+}
+
+a{
+    font-size: 50px;
+    /* color: darkmagenta; */
+}
+a:active{
+    color: aqua;
+    border: 5px solid black;
+}
+
+a:visited{
+    background-color: yellow;
+    border: 5px solid black;
+    color: red;
+}
+
+input:focus{
+    background-color: green;
+}
+
+/* li:nth-of-type(4){
+    color: red;
+    font-size: 50px;
+} */
+
+/* li:nth-of-type(odd){
+    color: red;
+    font-size: 50px;
+} */
+
+/* li:nth-of-type(even){
+    color: green;
+    font-size: 50px;
+} */
+
+li:nth-of-type(3n + 4){
+    color: pink;
+}
+
+
+
+
+

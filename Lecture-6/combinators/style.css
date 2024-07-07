@@ -1,0 +1,20 @@
+/* desc */
+section    h1{
+    color: red;
+    font-size: 30px;
+}
+
+/* child */
+section > div > h1 > span{
+    background-color: orange;
+}
+
+/* adja */
+h1 + p{
+    color: purple;
+}
+
+/* general */
+h1 ~ p{
+    background-color: brown;
+}

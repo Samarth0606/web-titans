@@ -1,0 +1,21 @@
+h1{
+    font-size: 30px;
+    font-family: cursive;
+}
+
+h1::first-letter{
+    color: lightcoral;
+    font-size: 70px;
+}
+
+p::first-line{
+    font-family: monospace;
+}
+h1::after{
+    content: ' by samarth vohra blah blah ';
+
+}
+h1::before{
+    /* content: ' by samarth vohra blah blah '; */
+    content: '\00A3'; /*backslash*/
+}
