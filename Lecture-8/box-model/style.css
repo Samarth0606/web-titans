@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid black;
+    /* margin: 20px; */
+    box-sizing: content-box; 
+    box-sizing: border-box;
+}
+
+span {
+    /* child property */
+    display: inline-block;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid black;
+    /* margin: 20px; */
+    /* box-sizing: content-box;  default */
+    box-sizing: border-box;
+}

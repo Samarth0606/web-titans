@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    /* child property */
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+/* static -> offset ❌ */
+/* #static  #middle{
+    position: static;
+    top: 100px;
+    left: 100px;
+} */
+
+/* ----------------------- */
+/* relative -> offset ✅ */
+
+/* #relative #middle{
+    position: relative;
+    top: 50px;
+    left: 50px;
+} */
+
+/* ----------------------- */
+/* absolute -> offset ✅ -> recently positioned parent  */
+
+/* #absolute{
+    position: relative;
+}
+#absolute #middle{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+} */
+
+/* ------------------ */
+/* fixed */
+/* offset -> ✅ => body */
+/* #fixed #middle{
+    position: fixed;
+    top: 50px;
+} */
+/* //no farak */
+/* #fixed{
+    position: relative;
+} */
+
+/* ------------------ */
+/* sticky */
+#sticky{
+    height: 500px;
+    border: 2px solid purple;
+}
+#sticky #middle{
+    position: sticky;
+    /* top: 20px; */
+}
+
+
+
+
