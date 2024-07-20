@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    background-color: lightyellow;
+    margin: 0 auto;
+    /* margin-top:10px ;
+    margin-bottom:10px;
+    margin-left:370px ;
+    margin-right:100px ; */
+    /* margin: 10px ;
+    margin: 10px 100px 10px 370px ;
+    margin: 10px 370px ;
+    margin: 10px 200px 370px ; */
+
+}
+
+/* @media print and (width:992px) { */
+
+/* --------------------------- */
+
+
+/* @media screen and (max-width:992px) {
+    div{
+        background-color: red;
+    }
+    h1{
+
+        font-family: monospace;
+        font-size: 16px;
+    }
+    p{
+        text-decoration: underline;
+    } 
+}
+
+
+@media screen and (max-width:768px) {
+    div{
+        background-color: green;
+    }
+    h1{
+        font-family: cursive;
+        font-size: 20px;
+    }
+    p{
+        text-decoration: line-through;
+    } 
+   
+} */
+
+/* --------------------- */
+
+/* @media screen and (min-width:768px) {
+    div{
+        background-color: green;
+    }
+    h1{
+        font-family: cursive;
+        font-size: 20px;
+    }
+    p{
+        text-decoration: line-through;
+    } 
+   
+}
+
+@media screen and (min-width:992px) {
+    div{
+        background-color: red;
+    }
+    h1{
+
+        font-family: monospace;
+        font-size: 16px;
+    }
+    p{
+        text-decoration: underline;
+    } 
+} */
+
+
+/* --------------------- */
+
+/* @media screen and (orientation:landscape){
+    h1{
+        font-size: 100px;
+        font-family: cursive;
+        color: palevioletred;
+    }
+}
+
+
+
+@media screen and (orientation:portrait){
+    h1{
+        font-size: 50px;
+        font-family: monospace;
+        color: orange;
+    }
+} */
+
+/* --------------------- */
+
+@media screen and (orientation:landscape) , (max-width:700px){
+    h1{
+        font-size: 100px;
+        font-family: cursive;
+        color: palevioletred;
+    }
+}
+
+
+
+/* @media screen and (orientation:portrait){
+    h1{
+        font-size: 50px;
+        font-family: monospace;
+        color: orange;
+    }
+} */
