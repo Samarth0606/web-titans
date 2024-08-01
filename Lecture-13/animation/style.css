@@ -1,0 +1,50 @@
+
+#container{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+
+    animation-name: anything;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    /* animation-direction: alternate-reverse ; */
+    animation-direction: reverse ;
+    /* animation-fill-mode: forwards ; */
+    /* animation-fill-mode: backwards ;
+    animation-fill-mode: forwards ; */
+    animation-fill-mode: both ;
+    animation-play-state: running;
+}
+
+#container:hover{
+
+    animation-play-state:paused;
+}
+
+@keyframes anything {
+    0%{
+        height: 100px;
+        background-color: aqua;
+    }
+    100%{
+        height: 300px;
+        background-color: red;
+    }
+    50%{
+        height: 500px;
+        background-color: yellow;
+    }
+}
+
+/* @keyframes anything {
+    from{
+        height: 100px;
+        background-color: aqua;
+    }
+    to{
+        height: 300px;
+        background-color: red;
+    }
+} */

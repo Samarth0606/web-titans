@@ -1,0 +1,14 @@
+
+.back{
+    border: 2px solid black;
+    width: 90vw;
+    height: 90vh;
+    background-image: url('../doggu.jpeg');
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-size: cover;
+    background-size: contain; */
+
+}

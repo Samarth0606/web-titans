@@ -1,0 +1,35 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    border-top: 10px solid red;
+    border-right: 10px solid green;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid orange;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+.parent{
+    border: 1px solid red;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader:hover{
+     animation-name: kuchbhi;
+     animation-duration: 3s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+}
+@keyframes kuchbhi{
+    0%{
+        transform: rotate(0deg) translateY(50px);
+    }
+    50%{
+        transform:  rotate(180deg) translateY(400px);
+    }
+    100%{
+        transform: rotate(360deg) translateY(50px);
+    }
+}
