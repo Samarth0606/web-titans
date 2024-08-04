@@ -28,7 +28,7 @@ let obj = {
     naam : "baba benagali",
     kaam : "vashikaran",
     number : 9567080335 , 
-//methods
+    //methods
     baba : function (){
         console.log("mai hu gian")
     }
