@@ -1,0 +1,14 @@
+{
+  "name": "jokes",
+  "version": "1.0.0",
+  "description": "mai nhi bata rha",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
