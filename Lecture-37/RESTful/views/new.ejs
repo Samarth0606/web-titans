@@ -1,0 +1,18 @@
+
+<%- include('./partials/header') %>  
+
+<a href="/blogs">back</a>
+
+<h1>MAI FORM HU</h1>
+<form action="/blogs" method="POST">
+    <label for="comm">Comment</label>
+    <input type="text" name="comment" id="comm">
+    <br>
+    <label for="auth">Author</label>
+    <input type="text" name="author" id="auth">
+    <br>
+    <button type="submit">Add New Blog</button>
+</form>
+
+
+<%- include('./partials/footer') %> 

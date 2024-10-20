@@ -1,0 +1,15 @@
+
+<%- include('./partials/header') %>  
+
+<a href="/blog/new">New</a>
+
+<h1>I am index page</h1>
+<% for(let item of blogs){ %>
+    <h1> <%=item.id %></h1>
+    <h2> <%=item.comment %></h2>
+    <p> <%=item.author %></p>
+    <a href="/blogs/<%=item.id%>">Show me</a>
+<% } %>
+
+
+<%- include('./partials/footer') %> 
