@@ -1,0 +1,19 @@
+
+<%- include('./partials/header') %>  
+
+<a href="/blogs">back</a>
+
+<h1>MAI EDIT FORM HU</h1>
+
+<form action="/blogs/<%=returnedItem.id%>?_method=PATCH" method="POST">
+    <label for="comm">Comment</label>
+    <input type="text" name="comment" id="comm" value="<%=returnedItem.comment%>">
+    <br>
+    <label for="auth">Author</label>
+    <input type="text" name="author" id="auth"  value="<%=returnedItem.author%>">
+    <br>
+    <button type="submit">Update Blog</button>
+</form>
+
+
+<%- include('./partials/footer') %> 
